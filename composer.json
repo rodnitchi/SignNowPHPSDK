@@ -10,9 +10,15 @@
             "Examples\\": "examples/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rodnitchi/RestEntityManager"
+        }
+    ],
     "require": {
         "php": ">=7.1",
-        "signnow/rest-entity-manager": "1.0.0"
+        "signnow/rest-entity-manager": "dev-guzzlefix"
     },
     "require-dev": {
         "phpunit/phpunit": "^7"
